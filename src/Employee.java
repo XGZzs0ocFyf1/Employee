@@ -1,5 +1,10 @@
 import java.util.stream.Stream;
 
+
+/**
+ * Employee is simple entity like object
+ * that stores data.
+ */
 public class Employee {
     private final String fullName;
     private final String position;
