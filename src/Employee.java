@@ -1,12 +1,12 @@
 import java.util.stream.Stream;
 
 public class Employee {
-    private String fullName;
-    private String position;
-    private String email;
-    private String phone;
-    private int salary;
-    private int age;
+    private final String fullName;
+    private final String position;
+    private final String email;
+    private final String phone;
+    private final int salary;
+    private final int age;
 
 
     public Employee(String fullName, String position, String email, String phone, int salary, int age) {
